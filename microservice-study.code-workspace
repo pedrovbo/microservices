@@ -1,15 +1,18 @@
 {
   "folders": [
-	{
-		"path": "greeting"
-	},
-	{
-		"path": "."
-	},
-	{
-		"path": "config-server"
-	}
-],
+    {
+      "path": "greeting"
+    },
+    {
+      "path": "."
+    },
+    {
+      "path": "config-server"
+    },
+    {
+      "path": "microservice-config-server"
+    }
+  ],
   "settings": {
     "java.configuration.updateBuildConfiguration": "interactive"
   }
