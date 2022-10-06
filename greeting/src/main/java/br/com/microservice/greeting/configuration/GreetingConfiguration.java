@@ -1,9 +1,11 @@
 package br.com.microservice.greeting.configuration;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
+import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.stereotype.Component;
 
 @Component
+@RefreshScope
 @ConfigurationProperties("greeting-service")
 public class GreetingConfiguration {
 
@@ -22,7 +24,7 @@ public class GreetingConfiguration {
     }
 
     public String getDefaultValue() {
-        return this.defaultValue;
+        return defaultValue;
     }
 
     public void setDefaultValue(String defaultValue) {
