@@ -8,9 +8,6 @@
     },
     {
       "path": "config-server"
-    },
-    {
-      "path": "microservice-config-server"
     }
   ],
   "settings": {

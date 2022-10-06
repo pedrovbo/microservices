@@ -6,7 +6,8 @@ management:
   endpoints:
     web:
       exposure:
-        include: "*"
+        include: 
+        - "*"
 
 greeting-service:
   greeting: "Olá"
