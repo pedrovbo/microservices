@@ -8,6 +8,9 @@
     },
     {
       "path": "config-server"
+    },
+    {
+      "path": "cambio-service"
     }
   ],
   "settings": {
